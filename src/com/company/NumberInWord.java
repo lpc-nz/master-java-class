@@ -2,36 +2,36 @@ package com.company;
 
 public class NumberInWord {
     public static void main(String[] args) {
-        int number = 5;
-        switch (number){
-            case 0:
+        Number numberInWord = Number.ONE;
+        switch (numberInWord){
+            case ZERO:
                 System.out.println("ZERO");
                 break;
-            case 1:
+            case ONE:
                 System.out.println("ONE");
                 break;
-            case 2:
+            case TWO:
                 System.out.println("TWO");
                 break;
-            case 3:
+            case THREE:
                 System.out.println("THREE");
                 break;
-            case 4:
+            case FOUR:
                 System.out.println("FOUR");
                 break;
-            case 5:
+            case FIVE:
                 System.out.println("FIVE");
                 break;
-            case 6:
+            case SIX:
                 System.out.println("SIX");
                 break;
-            case 7:
+            case SEVEN:
                 System.out.println("SEVEN");
                 break;
-            case 8:
+            case EIGHT:
                 System.out.println("EIGHT");
                 break;
-            case 9:
+            case NINE:
                 System.out.println("NINE");
                 break;
             default:
